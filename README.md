@@ -1,7 +1,6 @@
-# Readme.md
+# Readme
 
-## Query for get the data of movies from the below url
-<https://query.wikidata.org/>
+## Query i used to get movies data form https://query.wikidata.org/
 
 ```
 SELECT ?film ?filmLabel ?imdb_id ?release_date WHERE {
@@ -18,7 +17,14 @@ ORDER BY ?release_date
 Download the data into the Json format and put the downloaded file in project directory with  name "movies_data.json"  this will make things easy for you otherwise you will need to do change the name of the file in the views file with you file name.
 
 
+
 # Installation
+
+## Clone the project with the given command
+
+```
+git clone https://github.com/kpchoudhary65/movies.git
+```
 
 
 ## It is good practice to use the Virtual Environment.
@@ -26,6 +32,8 @@ Download the data into the Json format and put the downloaded file in project di
 ## step 1. Create Virtual Environment
 
 ## step 2. Activate Virtual Environment
+
+## step 3. Go to project directory
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all dependencies.
 
